@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Z, initial-scale=1.0">
+    <title>My Portfolio</title
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+body{
+    background-color: rgb(0, 0, 18);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(25, 25, 58);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(74, 74, 181);
+        font-size: 1.04rem;
+
+    }
+    
+    .left{
+        font-size: 1rem;
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+    }
+
+    .firstsection > div{
+        width: 30%;
+        
+    }
+
+    .leftsection{
+        
+    font-size: 3rem;
+        
+        
+    }
+    .rightsection img{
+        width: 130%;
+        
+        
+    }
+    .purple{
+        color: rgb(163, 94, 229);
+    }
+    #element{
+    color: rgb(163, 94, 229);
+    }
+</style>
+</head>
+
+<body>
+    
+    
+        <nav>
+        <div class="left">My Portfolio</div>
+        <div class="left">
+            <ul>
+                <li><a href="/">Home</a><li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Resume</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+           </ul>
+      </div>
+        </nav>
+    </header>
+    
+</body>
+<header>
+</header>
+     
+  <main>
+         <section class="firstsection">
+             <div class="leftsection">
+                Hello I am <span class="purple">Kavita!!</span>
+                <div>n I'm a Passionate</div>
+                
+                 <span id="element"></span>
+             </div>
+             <div class="rightsection">
+                 <img src="https://clarusway.com/wp-content/uploads/2021/04/step-to-become-a-full-stack-developer.png" alt="">
+             </div>
+         </section>
+         
+     </main>
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer!', 'Graphic Designer', 'Web Designer!', 'Video Editor!'],
+          typeSpeed: 50,
+        });
+      </script>
+      <ul >
+        <section>
+            <div class="share"> 
+                <p> Contact Me On:</p>
+                <div class="social"></div>
+                
+        <li><a href="#"><i class="ri-mail-fill"></i></a>- E-Mail</li>
+        <li><a href="#"><i class="ri-github-fill"></i></a>- Github</li>
+        <li><a href=""><i class="ri-linkedin-box-fill"></i></a>- Linkedin</li>
+        <li><a href=""><i class="ri-whatsapp-fill"></i></a>- Whatsapp</li>
+    </ul>
+</section>
+</html>
